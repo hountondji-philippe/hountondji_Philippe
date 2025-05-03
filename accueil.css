@@ -1,0 +1,63 @@
+/* Style global */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style pour les frames */
+frame {
+    border: 2px solid #007bff; /* Bordure bleue */
+}
+
+/* Header (Frame A) */
+.frame-header {
+    background-color: #f8f9fa; /* Fond gris clair */
+    color: #007bff; /* Texte bleu */
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Menu (Frame B) */
+.frame-menu {
+    background-color: #e9ecef; /* Fond gris pâle */
+    border-right: 3px solid #343a40; /* Bordure séparatrice */
+}
+
+/* Contenu (Frame C) */
+.frame-content {
+    background-color: #ffffff; /* Fond blanc */
+    padding: 20px;
+    border-left: 3px solid #343a40; /* Bordure séparatrice */
+}
+.content {
+    background-image: url("plan.jpg"); /* Image de fond */
+    background-size: cover; /* Couvre toute la zone */
+    background-position: center; /* Centrage */
+    background-repeat: no-repeat; /* Pas de répétition */
+}
+/* Appliquer l’image en arrière-plan à toute la page */
+body {
+    background-image: url("images/plan.jpg"); /* Assure-toi que l'image est dans le même dossier */
+    background-size: cover; /* Couvre toute la page */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Empêche la répétition */
+    height: 100vh; /* Assure que l'image prend toute la hauteur */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Rend le texte lisible si l'image est sombre */
+    text-shadow: 2px 2px 5px black; /* Ajoute un effet d'ombre */
+    font-size: 2em;
+}
+
+body {
+    background-image: url("images/plan2.jpg");
+    background-size: cover; /* Pour que l'image couvre tout l'arrière-plan */
+    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+    /* Vous pouvez ajouter d'autres propriétés de background ici, comme background-position */
+  }

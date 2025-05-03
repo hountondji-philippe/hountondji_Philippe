@@ -1,0 +1,8 @@
+td /* Toutes les cellules des tableaux... */
+{
+border: 2px solid black; /* ... auront une bordure de 1px */
+}
+table
+{
+border-collapse: separate; /* Les bordures du tableau seront collées (plus joli) */
+}

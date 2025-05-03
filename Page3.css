@@ -1,0 +1,36 @@
+Body
+{
+  color: black;
+}
+
+Body
+{
+ color : blue;
+}
+body { 
+font-family: ’ Times New 
+Roman ’, times, verdana; 
+} 
+p { 
+font-size: 14px; 
+} 
+gras { 
+font-weight: bold; 
+} 
+.italique { 
+font-style: italic; 
+} 
+.ecart { 
+letter-spacing: 0.4em; 
+} 
+.rapproch { 
+letter-spacing: -3px; 
+} 
+.ecart { 
+word-spacing: 0.4em; 
+} 
+.rapproch { 
+word-spacing: -3px; 
+} 
+{ 
+font: italic bold 120%/140% Arial, sans-serif; 

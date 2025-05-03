@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>mon site personel</title>
+    <style>
+.vertical-text {
+  writing-mode: vertical-rl; /* Rend le texte vertical */
+  transform: rotate(180deg); /* Ajuste l'orientation si nécessaire */
+  font-size: 20px; /* Taille du texte */
+  color: red; /* Change la couleur du texte en rouge */
+}
+</style>
+</head>
+ <body>
+      <p><h1 style="text-align: center;"><u>Quelques Tableaux</u></h1></p>
+    <table>
+    <p><caption><strong><u style="color: red;"><h4>Passagers du vol 377</h4></u></strong></caption><br />
+    <thead>
+    <th>Nom</th>
+    <th>Age</th>
+    <th>Pays</th>
+    </tr>
+    </thead>
+    <tfoot> <!-- Pied de tableau -->
+    <tr>
+    <th>Nom</th>
+    <th>Age</th>
+    <th>Pays</th>
+    </tr>
+    </tfoot>
+    <tbody> <!-- Corps du tableau -->
+    <tr>
+    <td>Carmen</td>
+    <td>33 ans</td>
+    <td>Espagne</td>
+    </tr>
+    <tr>
+    <td>Michelle</td>
+    <td>26 ans</td>
+    <td>Etats-Unis
+    </td>
+    <tr>
+    <td>François</td>
+    <td>43 ans</td>
+    <td>France</td>
+    </tr>
+    <tr>
+    <td>Martine</td>
+    <td>34 ans</td>
+    <td>France</td>
+    </tr>
+    <tr>
+    <td>Jonathan</td>
+    <td>13 ans</td>
+    <td>Australie</td>
+    </tr>
+    <tr>
+    <td>Xu</td>
+    <td>19 ans</td>
+    <td>Chine</td>
+    </tr>
+    </tbody>
+    </table><br /></p>
+    <p><table>
+        <tr>
+        <th>Titre du film</th>
+        <th>Pour enfants ?</th>
+        <th>Pour adolescents ?</th>
+        </tr>
+        <tr>
+        <td>Massacre à la tronçonneuse</td>
+        <td style="color: red;">Non, trop violent</td>
+        <td style="color: lime;">Oui</td>
+        </tr>
+        <tr>
+        <td>Les bisounours font du ski</td>
+        <td style="color: lime;">Oui, adapté</td>
+        <td style="color: red;">Pas assez violent...</td>
+        </tr>
+        <tr>
+        <td>Lucky Luke, seul contre tous</td>
+        <td style="color: lime;"colspan="2">Pour toute la famille !</td>
+        </tr>
+        </table></p><br />
+        <p><table>
+            <tr>
+            <th>Titre du film</th>
+            <td>Massacre à la tronçonneuse</td>
+            <td>Les bisounours font du ski</td>
+            <td>Lucky Luke, seul contre tous</td>
+            </tr>
+            <tr>
+            <th>Pour enfants ?</th>
+            <td style="color: red;">Non, trop violent</td>
+            <td style="color: lime;">Oui, adapté</td>
+            <td style="color: lime;"rowspan="2">Pour toute la famille !</td>
+            </tr>
+            <tr>
+            <th>Pour adolescents ?</th>
+            <td style="color: lime;">Oui</td>
+            <td style="color: red;">Pas assez violent...</td>
+            </tr>
+            </table></p>
+        <p><table>
+            <caption><strong><u><h4>Liste des Etudiant</h4></u></strong></caption><br />
+            <thead>
+            <th>Matricule</th>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>sexe</th>
+            </tr>
+            </thead>
+            <tbody> <!-- Corps du tableau -->
+            <tr>
+            <td>35728</td>
+            <td>BOKO</td>
+            <td>Janvier</td>
+            <td>M</td>
+            </tr>
+            <tr>
+            <td>56425</td>
+            <td>LOKONON</td>
+            <td>Amos</td>
+            <td>M</td>
+            </td>
+            <tr>
+            <td>85621</td>
+            <td>DEDOSSOKE</td>
+            <td>Mondésire</td>
+            <td>M</td>
+            </tr>
+            <tr>
+            <td>65981</td>
+            <td>BONOU</td>
+            <td>Justine</td>
+            <td>F</td>
+            </tr>
+        </table></p>
+        <div style="display: flex; gap: 20px;">
+        <p><table>
+            <caption><strong><u><h5>Tableau 1</h5></u></strong></caption>
+            <tr>
+                <td class="vertical-text" style="background-color: lime;"  style="writing-mode: vertical-rl;" style="color: red;" rowspan="2"><strong>IG-1</strong></td>
+                <td>GTL-1</td>
+            <tr>
+                <td>GC-1</td>
+            </tr>
+
+
+        </table>&nbsp&nbsp&nbsp 
+        <table>
+            <caption><strong><u><h5>Tableau 2</h5></u></strong></caption>
+            <tr>
+                <td style="color: lime;" colspan="2" ><strong><em>IG-2</em></strong></td>
+            
+            </tr>
+            
+            <tr>
+                <td>GTL-2</td>
+                <td>GC-2</td>
+            </tr>
+        </table></p></div><br />
+        <p><CENTER><TABLE width=60% border=1>
+            <TR>
+            <TD style="background-color: lime;" colspan=3 align=center>cellule 1</TD>
+            </TR>
+            <TR>
+            <TD width=33% >cellule 1</TD><TD width=33%>cel 2 </TD>
+            <TD width=34% align=right>3</TD>
+            </TR>
+            </TABLE></CENTER><br/></p>
+
+        <p><CENTER><TABLE width=60% border=1>
+            <TR>
+            <TD  style="background-color: blue;" colspan=3 align=center><strong style="color: white;">Tarif au ../../..</strong></TD>
+            </TR>
+            <TR>
+            <TD width=33% >Article 1</TD><TD width=33%>Ref 002 </TD>
+            <TD width=34% align=right>30fr</TD>
+            </TR>
+            </TABLE></CENTER></p>
+
+     
+    <style type="text/css"> 
+        @import url(tableau.css); 
+    </style> 
+    
+</body>
+</html>

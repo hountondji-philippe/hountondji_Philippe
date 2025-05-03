@@ -1,0 +1,50 @@
+/* Menu latéral */
+.sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    display: block;
+    padding: 8px;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #0056b3;
+}
+
+/* Contenu affiché */
+.content {
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    height: 100vh;
+    border: none;
+    padding: 20px;
+    background: white;
+}
+body {
+    background-image: url("images/plan4.jpg");
+    background-size: cover; /* Pour que l'image couvre tout l'arrière-plan */
+    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+    /* Vous pouvez ajouter d'autres propriétés de background ici, comme background-position */
+  }
