@@ -32,7 +32,7 @@ table
 border-collapse: separate; /* Les bordures du tableau seront collées (plus joli) */
 }
 body {
-    background-image: url("images/plan4.jpg");
+    background-image: url("plan4.jpg");
     background-size: cover; /* Pour que l'image couvre tout l'arrière-plan */
     background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
     /* Vous pouvez ajouter d'autres propriétés de background ici, comme background-position */
