@@ -51,3 +51,9 @@ strong
 { 
 color: red; 
 } 
+body {
+    background-image: url("plan6.jpg");
+    background-size: cover; /* Pour que l'image couvre tout l'arrière-plan */
+    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+    /* Vous pouvez ajouter d'autres propriétés de background ici, comme background-position */
+}
