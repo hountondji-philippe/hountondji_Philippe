@@ -47,3 +47,23 @@ body {
     background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
     /* Vous pouvez ajouter d'autres propriétés de background ici, comme background-position */
   }
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Organise les éléments verticalement */
+    gap: 15px; /* Ajoute de l’espace entre les pages */
+}
+
+nav ul li {
+    background-color: blue; /* Ajoute un arrière-plan bleu aux éléments de menu */
+    padding: 10px; /* Ajoute un espace interne pour une meilleure visibilité */
+    width: fit-content; /* Adapte la taille du bloc au contenu */
+    border-radius: 5px; /* Ajoute un léger arrondi */
+}
+
+nav ul li a {
+    color: white; /* Met le texte en blanc pour un meilleur contraste */
+    text-decoration: none; /* Supprime le soulignement du texte */
+    display: block; /* Transforme le lien en bloc pour prendre toute la zone cliquable */
+}
