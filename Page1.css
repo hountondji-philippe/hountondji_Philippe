@@ -4,3 +4,11 @@ body {
     background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
     /* Vous pouvez ajouter d'autres propriétés de background ici, comme background-position */
 }
+button.suivant {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
