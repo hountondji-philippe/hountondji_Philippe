@@ -4,3 +4,30 @@ body {
     background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
     /* Vous pouvez ajouter d'autres propriétés de background ici, comme background-position */
   }
+}
+
+body {
+    text-align: center;
+}
+p {
+    margin: 20px;
+    line-height: 1.6;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+body {
+    background-color: #181818;
+}
+strong {
+    color: yellow;
+}
+button.suivant {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
