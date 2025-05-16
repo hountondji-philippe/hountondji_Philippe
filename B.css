@@ -61,7 +61,7 @@ nav ul li {
     width: fit-content; /* Adapte la taille du bloc au contenu */
     border-radius: 5px; /* Ajoute un léger arrondi */
 }
-body {
+  body {
       background: #f0f2f5;
       font-family: 'Segoe UI', sans-serif;
       display: flex;
@@ -112,9 +112,6 @@ body {
     .btn-menu:hover {
       background-color: #1e272e;
     }
-  </style>
-</head>
-<body>
 
 nav ul li a {
     color: white; /* Met le texte en blanc pour un meilleur contraste */
