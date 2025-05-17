@@ -244,4 +244,20 @@ button:hover {
     text-decoration: none;
 }
 
-.links a:hover
+.sa-s {
+    background: linear-gradient(to right, #ff4d4d, #4d79ff);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Effet au survol */
+.sa-s:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ff6666, #6699ff);
+}
