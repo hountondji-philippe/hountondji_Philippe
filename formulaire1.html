@@ -2,6 +2,97 @@
 <html>
     <head>
         <title>mon site personel</title>
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Conteneur du formulaire */
+.login-container {
+    width: 350px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Titre */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Champs de texte */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Case à cocher */
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+/* Bouton de connexion */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Lien de récupération de mot de passe et d'inscription */
+.links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.links a {
+    color: #333;
+    text-decoration: none;
+}
+
+.login-button {
+    background: linear-gradient(to right, #ff4d4d, #4d79ff);
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Effet au survol */
+.login-button:hover {
+    background: linear-gradient(to right, #ff6666, #6699ff);
+    transform: scale(1.05);
+}
     </head>
     <body>
             <form>
