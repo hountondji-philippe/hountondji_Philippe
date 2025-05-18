@@ -46,4 +46,75 @@ button[type="reset"]:hover,
 button[type="button"]:hover {
     background-color: #c82333;
 }
-
+corps {
+    famille de polices : « Segoe UI », sans-serif ;
+    couleur d'arrière-plan : vert ;
+    marge : 40px ;
+    couleur : #f1f1f1;
+    affichage : bloc ;
+    justifier-contenu : centre ;
+  }
+  
+  formulaire {
+    largeur : 100 % ;
+    largeur maximale : 500 px ;
+  }
+  
+  ensemble de champs {
+    bordure : 2 px noir uni ;
+    rayon de la bordure : 12 px ;
+    remplissage : 25px 30px ;
+    couleur d'arrière-plan : burnt orange ;
+    boîte-ombre : 0 6px 16px rgba(0, 0, 0, 0.6);
+    transition : toutes les 0,3 s sont faciles ;
+  }
+  
+  légende {
+    taille de police : 1,4 em ;
+    font-weight: gras;
+    couleur : noir;
+    remplissage : 0 10px ;
+  }
+  
+  étiquette {
+    affichage : bloc ;
+    marge supérieure : 15 px ;
+    poids de police : 600 ;
+    couleur : #cccccc;
+  }
+  
+  entrée, sélection, zone de texte {
+    largeur : 100 % ;
+    remplissage : 10 px ;
+    marge supérieure : 5 px ;
+    bordure : 1px solide #555 ;
+    rayon de bordure : 6 px ;
+    couleur d'arrière-plan : #2a2a2a ;
+    couleur : #f1f1f1;
+    dimensionnement de la boîte : bordure-boîte ;
+    transition : couleur de bordure 0,3 s de facilité, couleur d'arrière-plan 0,3 s de facilité ;
+  }
+  
+  entrée : focus, zone de texte : focus, sélection : focus {
+    couleur de bordure : #1e88e5 ;
+    couleur d'arrière-plan : #333 ;
+    contour : aucun ;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
+  
+  bouton:survol {
+    couleur d'arrière-plan : noir ;
+  }
