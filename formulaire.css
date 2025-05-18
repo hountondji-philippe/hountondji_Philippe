@@ -53,3 +53,66 @@ body {
     background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
     /* Vous pouvez ajouter d'autres propriétés de background ici, comme background-position */
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #FFA500, #FF4500);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #FF4500;
+    font-weight: 600;
+}
+
+.login-form,.preferences {
+    margin: 20px 0;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #FF4500;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #E63946;
+}
+
+.footer.suivant {
+    background-color: #FFA500;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer.suivant:hover {
+    background-color: #FF4500;
+}
