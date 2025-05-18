@@ -31,3 +31,28 @@ button.suivant {
     cursor: pointer;
     font-size: 16px;
 }
+body {
+    background-color: #F4F4F4; /* Un gris clair neutre pour éviter une surcharge visuelle */
+}
+
+h1, h2 {
+    color: #FF8C00; /* Une belle nuance d'orange pour apporter du contraste */
+}
+
+button {
+    background-color: #FFA500; /* Un orange lumineux mais subtil */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF4500; /* Un peu plus de peps au survol */
+}
+
+a {
+    color: #E67E22; /* Une teinte orangée plus douce pour les liens */
+}
